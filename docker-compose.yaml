@@ -1,11 +1,11 @@
 version: '3'
 services:
-  portfolio:
+  netflix-clone:
     build:
       context: .
     image: netflix-clone:v1.0
     ports:
-      - "8100:8100"
+      - "8100:80"
     restart: unless-stopped
 networks:
   default:
